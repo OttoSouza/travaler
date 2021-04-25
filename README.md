@@ -1,34 +1,83 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Traveler
 
-## Getting Started
+- Design desenvolvido pela rockseat para praticar conceitos de Html, Css, Javascript e utilizar algum framekor que dejeja.
 
-First, run the development server:
+<br>
 
-```bash
-npm run dev
-# or
-yarn dev
+# 🖥 Tecnologias utilizadas no projeto
+
+✅ Next-Auth - Autenticação
+
+- Criar a autenticação do projeto.
+
+✅ Chakra - CSS declarativo
+
+- Estilização
+- Responsividade
+
+✅ React-Icons - Pacote de Icones
+
+- Icones da aplicação
+
+✅ FaunaDB - Banco Serveless
+
+✅ json-server - Servidor fake
+
+
+<br>
+
+# 🧑‍💻 Densenvolvimento das telas
+
+✔ Pagina Inicial
+
+✔ Listando as cidades
+
+✔ Informando o que cada cidade tem de melhor.
+
+<br>
+
+# Instalação
+
+```html
+# Copie e cole no seu terminal $ git clone
+https://github.com/OttoSouza/iginite_worldtrip_chapter_IV.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```html
+# Acesse a pasta $ cd Traveler 
+# Crie um arquivo na raiz do projeto chamada ".env.local" sem as aspas. 
+# Adicione as variaveis necessarias. (Variaveis se
+# encontra no .env.example) 
+# 
+# Crie uma conta no Github ou Google 
+# 
+# Na google precisa-se criar um serviço de ID Client OAuth 2.0:
+# https://console.cloud.google.com/ 
+# Quando o serviço for criado no final irá gerar os ids necessarios.
+#
+# No Github acesse: 
+# Configuraços -> Configuração de desenvolvedor -> OAuth 
+# Crie um serviço e obtenha os ids necessarios.
+#
+# FaunaDB
+# Crie uma conta no fauna e crie um banco no "repositorio" do fauna
+# Em Collections crie com o nome "users"
+# Em indexes "user_by_email" como unico.
+# Feito isso va ate "Security" e crie sua chave.
+#
+# Por fim gere um JWT pode ser um md5.
+#
+# Adicionar todas as chaves no arquivo .env.local 
+#
+# Execute 
+$ yarn install (Instalar os pacotes necessarios)
+$ yarn dev (Executar a aplicação)
+$ yarn server (Executar o servidor fake)
+# Acessa pelo browser $
+https://localhost:3000
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<br>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<img src="./public/traveler.png" alt="traveler" width="100%"/>

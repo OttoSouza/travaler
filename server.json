@@ -1,0 +1,35 @@
+{
+  "states": [
+    {
+      "id": 1,
+      "title": "Florianopolis",
+      "image": "https://images.unsplash.com/photo-1587133102538-879ae077ae92?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "places": "98 locais"
+    },
+    {
+      "id": 2,
+      "title": "Blumenau",
+      "image": "https://images.unsplash.com/photo-1531952106257-043446a3aed5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "places": "29 locais"
+    },
+    {
+      "id": 3,
+      "title": "Bombinhas",
+      "image": "https://images.unsplash.com/photo-1595293200720-3ead6629a854?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Ym9tYmluaGFzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "places": "43 locais"
+    },
+
+    {
+      "id": 4,
+      "title": "Águas Mornas",
+      "image": "https://images.unsplash.com/photo-1576030765519-4c9b41ead328?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8JUMzJUExZ3VhcyUyMG1vcm5hcyUyMGJyYXNpbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "places": "13 locais"
+    },
+    {
+      "id": 5,
+      "title": "Natal",
+      "image": "https://images.unsplash.com/photo-1604973656963-8471bb65dba6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1415&q=80",
+      "places": "100 locais"
+    }
+  ]
+}
